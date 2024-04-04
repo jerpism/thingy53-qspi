@@ -17,4 +17,7 @@ Change the `QSPI_BASE` and `GPIO_BASE` macros in `src/qspi.s` if you wish to bui
 
 ## How to build
 
-Simply run `west build -b thingy53_nrf5340_cpuapp` and `west flash`
+```sh
+west build -p -b thingy53_nrf5340_cpuapp
+west flash
+```
